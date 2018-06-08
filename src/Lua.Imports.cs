@@ -340,7 +340,7 @@ namespace Lua.NET {
         public static extern void luaL_where (lua_State luaState, int level);
 
         [DllImport (LIBNAME, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
-        public static extern void luaL_error (lua_State luaState, string message);
+        public static extern int luaL_error (lua_State luaState, string message);
 
         [DllImport (LIBNAME, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         public static extern int luaL_checkoption (lua_State luaState, int arg, string def, string[] lst);
