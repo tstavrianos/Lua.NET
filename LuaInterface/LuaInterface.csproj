@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
@@ -27,4 +27,4 @@
     <Compile Include="..\src\**\*.cs" Exclude="..\src\obj\**\*.cs" />
   </ItemGroup>
 
-</Project>
+ </Project>
