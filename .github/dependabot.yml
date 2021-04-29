@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/src"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+- package-ecosystem: nuget
+  directory: "/ConsoleTest"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+- package-ecosystem: nuget
+  directory: "/LuaInterface"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+- package-ecosystem: nuget
+  directory: "/LuaRunner"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
